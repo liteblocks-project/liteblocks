@@ -3,7 +3,7 @@ Liteblocks V1.0.0
 For detailed changes list, see file changelog.txt 
 
 
-web site http://liteblocks.net/
+web site https://liteblocks.net/
 explorer http://explorer.liteblocks.net/
 
 windows-QT and linux-QT wallets can be downloaded from the web site
