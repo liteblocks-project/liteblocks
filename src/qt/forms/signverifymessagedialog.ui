@@ -20,7 +20,7 @@
    <item>
     <widget class="QTabWidget" name="tabWidget">
      <property name="currentIndex">
-      <number>0</number>
+      <number>1</number>
      </property>
      <widget class="QWidget" name="tabSignMessage">
       <attribute name="title">
@@ -48,7 +48,7 @@
          <item>
           <widget class="QValidatedLineEdit" name="addressIn_SM">
            <property name="toolTip">
-            <string>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</string>
+            <string>The address to sign the message with (e.g. L8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</string>
            </property>
            <property name="maxLength">
             <number>34</number>
@@ -105,16 +105,6 @@
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="signatureLabel_SM">
-         <property name="text">
-          <string>Signature</string>
-         </property>
-         <property name="textFormat">
-          <enum>Qt::PlainText</enum>
-         </property>
-        </widget>
-       </item>
-       <item>
         <layout class="QHBoxLayout" name="horizontalLayout_2_SM">
          <property name="spacing">
           <number>0</number>
@@ -158,7 +148,7 @@
             <string>Sign the message to prove you own this Liteblocks address</string>
            </property>
            <property name="text">
-            <string>Sign &amp;Message</string>
+            <string>&amp;Sign Message</string>
            </property>
            <property name="icon">
             <iconset resource="../bitcoin.qrc">
@@ -261,7 +251,7 @@
          <item>
           <widget class="QValidatedLineEdit" name="addressIn_VM">
            <property name="toolTip">
-            <string>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</string>
+            <string>The address the message was signed with (e.g. L8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</string>
            </property>
            <property name="maxLength">
             <number>34</number>
@@ -304,7 +294,7 @@
             <string>Verify the message to ensure it was signed with the specified Liteblocks address</string>
            </property>
            <property name="text">
-            <string>Verify &amp;Message</string>
+            <string>&amp;Verify Message</string>
            </property>
            <property name="icon">
             <iconset resource="../bitcoin.qrc">
